@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "author": "ChatGPT",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "led",
+      "id": "red-led",
+      "top": -50,
+      "left": 70,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "type": "led",
+      "id": "blue-led",
+      "top": -20,
+      "left": 70,
+      "attrs": {
+        "color": "blue"
+      }
+    },
+    {
+      "type": "resistor",
+      "id": "resistor-red",
+      "top": -50,
+      "left": 40
+    },
+    {
+      "type": "resistor",
+      "id": "resistor-blue",
+      "top": -20,
+      "left": 40
+    },
+    {
+      "type": "buzzer",
+      "id": "buzzer",
+      "top": 30,
+      "left": 70
+    }
+  ],
+  "connections": [
+    ["esp:19", "resistor-red:1", "green", []],
+    ["resistor-red:2", "red-led:A", "green", []],
+    ["red-led:C", "esp:GND", "black", []],
+
+    ["esp:18", "resistor-blue:1", "green", []],
+    ["resistor-blue:2", "blue-led:A", "green", []],
+    ["blue-led:C", "esp:GND", "black", []],
+
+    ["esp:27", "buzzer:1", "green", []],
+    ["buzzer:2", "esp:GND", "black", []]
+  ],
+  "dependencies": {}
+}

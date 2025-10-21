@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
+#include <Adafruit_SSD1306.h> 
 
 #define LDR_PIN 34
 #define SDA_PIN 21
@@ -26,7 +26,7 @@ void loop() {
   display.clearDisplay();
   display.setTextSize(1);
   display.setCursor(0,10);
-  display.print("LDR ADC: "); display.println(adcValue);
+  display.print("LDR - ADC: "); display.println(adcValue);
   display.print("Voltage: "); display.print(voltage, 2); display.println(" V");
   display.display();
 

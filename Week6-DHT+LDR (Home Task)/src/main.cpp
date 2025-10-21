@@ -1,3 +1,10 @@
+// Week6-DHT+LDR (Home Task)
+// Making DHT (Temperature/Humidity Sensor) 
+// and LDR (Light Detecting Resistor) work together 
+//Embedded IoT Systems Fall-2025
+
+// Name: Muhammad Ali Akram        //Reg#: 23-NTU-CS-1062
+
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>

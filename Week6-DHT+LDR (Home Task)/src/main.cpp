@@ -12,8 +12,8 @@
 #include <DHT.h>
 
 // --- Pin configuration ---
-#define DHTPIN 14        // DHT22 data pin
-#define DHTTYPE DHT22    // DHT type: DHT11 or DHT22
+#define DHTPIN 14        // DHT11 data pin
+#define DHTTYPE DHT11    // DHT type: DHT11
 
 #define LDR_PIN 34       // LDR analog pin (for light intensity)
 #define SDA_PIN 21       // I2C SDA
@@ -60,7 +60,7 @@ void loop() {
 
   // Check if read failed
   if (isnan(temperature) || isnan(humidity)) {
-    Serial.println("Error reading DHT22 sensor!");
+    Serial.println("Error reading DHT11 sensor!");
     return;
   }
 
@@ -83,22 +83,31 @@ void loop() {
   display.setTextSize(1);
   display.setCursor(0, 0);
   display.println("IoT Project");
+
   display.setCursor(0, 16);
   display.print("Temp: ");
   display.print(temperature);
   display.println(" C");
+
   display.setCursor(0, 32);
   display.print("Humidity: ");
   display.print(humidity);
   display.println(" %");
+
   display.setCursor(0, 48);
-  display.print("LDR: ");
+  display.print("LDR");
+  display.setCursor(70, 48);
+  display.println("Voltage");
+
+  display.setCursor(0, 56);
   display.print(ldrValue);
-  display.print("   ");
-  display.print("Voltage: ");
+  display.setCursor(70, 56);
   display.print(ldrVoltage, 2);
   display.println(" V");
+
   display.display();
 
   delay(2000); // update every 2 seconds
 }
+
+

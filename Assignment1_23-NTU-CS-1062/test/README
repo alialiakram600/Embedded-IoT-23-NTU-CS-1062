@@ -1,0 +1,36 @@
+
+This directory is intended for PlatformIO Test Runner and project tests.
+
+Unit Testing is a software testing method by which individual units of
+source code, sets of one or more MCU program modules together with associated
+control data, usage procedures, and operating procedures, are tested to
+determine whether they are fit for use. Unit testing finds problems early
+in the development cycle.
+
+More information about PlatformIO Unit Testing:
+- https://docs.platformio.org/en/latest/advanced/unit-testing/index.html
+
+
+Wokwi Link:-
+https://wokwi.com/projects/445503918143334401
+
+
+
+
+Pin Map:-
+
+I2C OLED Display:
+OLED SDA -> GPIO 21
+OLED SCL -> GPIO 22 
+
+Task A Components:
+LED 1 -> GPIO 19
+LED 2 -> GPIO 18
+Mode Button -> GPIO 26
+Reset Button -> GPIO 0 (The onboard BOOT button) 
+
+Task B Components:
+LED 3 -> GPIO 17
+Event Button -> GPIO 25
+
+Buzzer -> GPIO 32

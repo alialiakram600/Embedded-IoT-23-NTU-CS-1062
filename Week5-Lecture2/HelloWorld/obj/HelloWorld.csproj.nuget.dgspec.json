@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amcs\\Documents\\PlatformIO\\Projects\\Wokwi\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\amcs\\Desktop\\5th semester\\Embedded Systems & IoT\\IoT-Wokwi-ESP\\Week5-Lecture2\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amcs\\Documents\\PlatformIO\\Projects\\Wokwi\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\amcs\\Desktop\\5th semester\\Embedded Systems & IoT\\IoT-Wokwi-ESP\\Week5-Lecture2\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amcs\\Documents\\PlatformIO\\Projects\\Wokwi\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\amcs\\Desktop\\5th semester\\Embedded Systems & IoT\\IoT-Wokwi-ESP\\Week5-Lecture2\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\amcs\\Documents\\PlatformIO\\Projects\\Wokwi\\HelloWorld\\HelloWorld.csproj",
+        "projectPath": "C:\\Users\\amcs\\Desktop\\5th semester\\Embedded Systems & IoT\\IoT-Wokwi-ESP\\Week5-Lecture2\\HelloWorld\\HelloWorld.csproj",
         "packagesPath": "C:\\Users\\amcs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amcs\\Documents\\PlatformIO\\Projects\\Wokwi\\HelloWorld\\obj\\",
+        "outputPath": "C:\\Users\\amcs\\Desktop\\5th semester\\Embedded Systems & IoT\\IoT-Wokwi-ESP\\Week5-Lecture2\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amcs\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

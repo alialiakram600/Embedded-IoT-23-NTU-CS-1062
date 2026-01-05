@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week13-Lecture3-WokwiWork", "Week13-Lecture3-WokwiWork", "{DB4A5BF3-B171-31EA-57BE-4FFBA850B26F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week5-Lecture2", "Week5-Lecture2", "{1957BA52-3A5C-8A58-F71E-AFC9FBADB9B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week6-DHT+LDR (Home Task)", "Week6-DHT+LDR (Home Task)", "{FCD17289-D5E7-5006-8EC1-A957B44E5479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "Week13-Lecture3-WokwiWork\HelloWorld\HelloWorld.csproj", "{ACE04564-D8D4-0C1A-D8E1-61566B201112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "Week5-Lecture2\HelloWorld\HelloWorld.csproj", "{60F5C5ED-5B42-0172-8409-814312F9DFCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "Week6-DHT+LDR (Home Task)\HelloWorld\HelloWorld.csproj", "{84F1851A-3F65-FDBF-D733-EB0167996D4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACE04564-D8D4-0C1A-D8E1-61566B201112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE04564-D8D4-0C1A-D8E1-61566B201112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE04564-D8D4-0C1A-D8E1-61566B201112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE04564-D8D4-0C1A-D8E1-61566B201112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F5C5ED-5B42-0172-8409-814312F9DFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F5C5ED-5B42-0172-8409-814312F9DFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F5C5ED-5B42-0172-8409-814312F9DFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F5C5ED-5B42-0172-8409-814312F9DFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F1851A-3F65-FDBF-D733-EB0167996D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F1851A-3F65-FDBF-D733-EB0167996D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F1851A-3F65-FDBF-D733-EB0167996D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F1851A-3F65-FDBF-D733-EB0167996D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACE04564-D8D4-0C1A-D8E1-61566B201112} = {DB4A5BF3-B171-31EA-57BE-4FFBA850B26F}
+		{60F5C5ED-5B42-0172-8409-814312F9DFCF} = {1957BA52-3A5C-8A58-F71E-AFC9FBADB9B3}
+		{84F1851A-3F65-FDBF-D733-EB0167996D4B} = {FCD17289-D5E7-5006-8EC1-A957B44E5479}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F36B3097-D573-43E6-8790-77F90CA84FC4}
+	EndGlobalSection
+EndGlobal

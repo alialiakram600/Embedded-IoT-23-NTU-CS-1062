@@ -1,3 +1,4 @@
+// ---------------- Blynk Credentials ----------------
 #define BLYNK_TEMPLATE_ID "TMPL6rEL0a3qB"
 #define BLYNK_TEMPLATE_NAME "Rider Location"
 #define BLYNK_AUTH_TOKEN "ZkzCMs34aMEbpnhjHVGob_7HywbMW3fq"
@@ -15,7 +16,6 @@
 #include <BlynkSimpleEsp32.h>
 #include <math.h>
 
-// ---------------- Blynk Credentials ----------------
 
 // ---------------- OLED Settings ----------------
 #define SCREEN_WIDTH 128
@@ -31,8 +31,8 @@ float THRESHOLD = 25.0;
 bool crashSent = false;
 
 // ---------------- WiFi ----------------
-char ssid[] = "Oppo";
-char pass[] = "1234567890";
+char ssid[] = "NTU-FSD";
+char pass[] = "";
 
 // ---------------- Bluetooth ----------------
 BluetoothSerial SerialBT;
